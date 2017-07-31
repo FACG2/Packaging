@@ -25,7 +25,8 @@ You need to determine whether your package has dependencies on other packages an
 
 * NPM makes is easy to reuse thousands of existing open source packages that solve a multitude of common problems.
 
-* NPM is automated dependency and package management. This means that you can specify all of your project's dependencies inside your package.json file, then any time you (or anyone else) needs to get started with your project they can just run npm install and immediately have all of the dependencies installed.
+* NPM is automated dependency and package management.
+> This means that you can specify all of your project's dependencies inside your package.json file, then any time you (or anyone else) needs to get started with your project they can just run npm install and immediately have all of the dependencies installed.
 
 ## What is package.json, and what does npm init do?
 
