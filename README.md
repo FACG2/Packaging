@@ -34,14 +34,14 @@ A package.json file affords you a lot of great things:
 2. It allows you to specify the versions of a package that your project can use it.
 3.  Its way easier to share with other developers.
 To create a package.json run:
-> npm init
+> `npm init`
 This will initiate a command line that will conclude with the creation of a package.json in the directory you initiated the command.
 
 ## How do you use an installed package in your code?
- $ npm install express
+ `$ npm install express`
 
  Now you can use this module in your js file as following :
-  var express = require('express');
+  `var express = require('express');`
 
 ## The difference between dependencies:-
 
@@ -77,7 +77,7 @@ It is normally a bad idea to install packages globally because your project depe
 
 ### Where does NPM install packages?
 
-npm can install packages in local or global mode. In local mode it installs the package in a node_modules folder in your parent working directory. This location is owned by the current user. Global packages are installed in {prefix}/lib/node_modules/ which is owned by root (where {prefix} is usually /usr/ or /usr/local). This means you would have to use sudo to install packages globally, which could cause permission errors when resolving third-party dependencies, as well as being a security concern.
+npm can install packages in local or global mode. In local mode it installs the package in a node_modules folder in your parent working directory. This location is owned by the current user. Global packages are installed in {prefix}/lib/node_modules/ which is owned by root (where {prefix} is usually /usr/ or /usr/local). This means you would have to use sudo to install packages globally, which could cause permission errors when resolving third-party dependencies, as well as being a security concern. Lets change that:
 
 ### Why is it important to make sure that installed packages aren't included in your repositories?
 Because of errors that will occur after that, as the packages included in repo will not be listed anymore, or due to availability.
